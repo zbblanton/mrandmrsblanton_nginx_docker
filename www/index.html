@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Poiret+One" rel="stylesheet">
@@ -139,8 +138,6 @@
         width: 100%;
         margin: 0;
 
-        /*position: absolute;*/
-
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -195,19 +192,14 @@
         transform: translate3d(0,100%,0);
         -webkit-transition: transform 2s ease-in-out;
         transition: transform 2s ease-in-out;
-        /*animation-name: page_slide_animation;
-        animation-duration: 2s;*/
       }
 
       .content{
-        /*position: absolute;*/
-
         max-height: 75%;
         overflow-y: auto;
         padding-left: 10px;
         padding-right: 10px;
 
-        /*bottom: 100%;*/
         display: none;
       }
       h1{
@@ -266,7 +258,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
     <script>
 
-      //var windowWidth;
 
       function resize_sreen(){
         //Fix for iOS random resize when scrolling
@@ -281,8 +272,6 @@
             $('.menu_item').removeClass('menu_is_mobile')
             $('.menu_item').css('display', 'block');
           }
-
-          //windowWidth = $(window).width();
         //}
       }
 
